@@ -76,13 +76,10 @@
   .owl-carousel.owl-rtl .owl-item {
     float: right; }
 
-/* No Js */
+
 .no-js .owl-carousel {
   display: block; }
 
-/*
- *  Owl Carousel - Animate Plugin
- */
 .owl-carousel .animated {
   animation-duration: 1000ms;
   animation-fill-mode: both; }
