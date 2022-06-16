@@ -1,0 +1,14 @@
+.bigicon {
+    font-size: 2rem;
+    color: #b68b23;
+}
+.form{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    &-boton{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}

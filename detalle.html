@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel2/assets/owl.theme.default.css">    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>DETALLE DE PRODUCTO | Marke Space Indumentaria Masculina</title>
+</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0 bg-white">
+          <div class="container">
+              <a class="navbar-brand" href="#"><img src="img/images-removebg-preview.png" alt="HEY BRO" width="90rem"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="tienda.html">E-SHOP</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="#!">
+                    <i id="nav-carrito" class="fas fa-shopping-cart"> Carrito (0)</i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+  </header>
+      
+      <div id="barraCarrito-container" class="row barraCarrito-container fixed-top">
+        <div id="barraCarrito" class="barraCarrito row">
+          <div class="barraCarrito-cerrar row justify-content-start">
+            <button id="barraCarrito-cerrar" class="col-4 btn-close p-4" type="button"></button>
+            <h4 class="col-8 mt-3">Carrito</h4>
+          </div>
+          <div id="barraCarrito-listaItems" class="row barraCarrito-listaItems">
+          </div>
+          <div class="row barraCarrito-botones">
+            <a href="carrito.html" class=" btn-dark text-uppercase mb-2 rounded p-2">
+              <span>Ver carrito</span>
+            </a>
+            <a href="checkout.html" class=" btn-dark text-uppercase mb-1 rounded p-2">
+              <span>Finalizar Compra</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div id="dialogoInfo" class="dialogoInfo text-uppercase justify-content-center">
+      </div>
+      
+      <div id="modales">
+      </div>
+      
+      <section class="py-5 mt-4">
+        <div class="container">
+          <div id="detalle" class="row mb-5">
+          </div>
+
+          
+          <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+            <li class="nav-item"><a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Descripción</a></li>
+            <li class="nav-item"><a class="nav-link" id="reviews-tab" data-bs-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Opioniones</a></li>
+          </ul>
+          <div class="tab-content mb-5" id="MytabContent">
+            <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+              <div class="p-4 p-lg-5 bg-white">
+                <h6 class="text-uppercase">Descripción del Producto </h6>
+                <p class="text-muted text-small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+              <div class="p-4 p-lg-5 bg-white">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="media mb-3"><img class="rounded-circle" src="img/adonay.jpg" alt="" width="50">
+                      <div class="media-body ms-3">
+                        <h6 class="mb-0 text-uppercase">Adonay Sayago</h6>
+                        <p class="small text-muted mb-0 text-uppercase">15 Jun 2022</p>
+                        <ul class="list-inline mb-1 text-xs">
+                          <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item m-0"><i class="fas fa-star-half-alt text-warning"></i></li>
+                        </ul>
+                        <p class="text-small mb-0 text-muted">Excelente producto. Lo recomiendo.</p>
+                      </div>
+                    </div>
+                    <div class="media"><img class="rounded-circle" src="img/adona1.jpg" alt="" width="50">
+                      <div class="media-body ms-3">
+                        <h6 class="mb-0 text-uppercase">Jose Sayago</h6>
+                        <p class="small text-muted mb-0 text-uppercase">15 Jun 2022</p>
+                        <ul class="list-inline mb-1 text-xs">
+                          <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item m-0"><i class="fas fa-star text-warning"></i></li>
+                        </ul>
+                        <p class="text-small mb-0 text-muted">Mejor de lo que esperaba. Super recomendado!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <h2 class="h5 text-uppercase mb-4">PRODUCTOS RELACIONADOS</h2>
+          <div id="productos" class="row">
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-dark text-center text-white">
+        
+        <div class="container p-4">
+          
+          <section class="mb-4">
+            
+            <a class="btn btn-outline-light btn-floating m-1" href="">
+              <i class="fab fa-facebook-f"></i
+            ></a>
+      
+            
+            <a class="btn btn-outline-light btn-floating m-1" href="">
+              <i class="fab fa-google"></i
+            ></a>
+      
+            
+            <a class="btn btn-outline-light btn-floating m-1" href="">
+              <i class="fab fa-instagram"></i
+            ></a>
+      
+            
+            <a class="btn btn-outline-light btn-floating m-1" href="">
+              <i class="fab fa-whatsapp"></i
+            ></a>
+          </section>
+          
+      
+          
+          <section class="">
+            <form id="newsletter" action="">
+              
+              <div class="row d-flex justify-content-center">
+                
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Suscribite a nuestro newsletter</strong>
+                  </p>
+                </div>
+                
+      
+                
+                <div class="col-md-5 col-12">
+                  
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="inputNewsletter" class="form-control" />
+                    <label class="form-label" for="form5Example2">Tu email</label>
+                  </div>
+                </div>
+                
+      
+                
+                <div class="col-auto">
+                  
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Suscribirme
+                  </button>
+                </div>
+                
+              </div>
+              
+            </form>
+          </section>
+          
+          <section class="mb-4">
+            <p>
+              Somos Marke Space! Indumentaria Masculina. Somos tu mejor opción.
+            </p>
+          </section>
+
+          <section class="">
+            
+            <div class="row">
+              
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#" class="text-white">HOME</a>
+                  </li>
+                  <li>
+                    <a href="tienda.html" class="text-white">E-SHOP</a>
+                  </li>
+                  <li>
+                    <a href="nosotros.html" class="text-white">NOSOTROS</a>
+                  </li>
+                  <li>
+                    <a href="contacto.html" class="text-white">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+              
+      
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">+ Links</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="">CATALOGO</a>
+                  </li>
+                  <li>
+                    <a href="">WHATSAPP</a>
+                  </li>
+                  <li>
+                    <a href="">INSTAGRAM</a>
+                  </li>
+                  <li>
+                    <a href="">FACEBOOK</a>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+            
+          </section>
+          
+        </div>
+        
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          ©Adonay 2022 Copyright:
+          <a class="text-white" href="#">Todos los derechos reservados</a>
+        </div>
+        
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="vendor/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+    <script src="vendor/owl.carousel2/owl.carousel.min.js"></script>
+    <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/front.js" defer></script>
+    <script src="js/app.js"></script>
+    <script src="js/app-DOMproductos.js"></script>
+    <script src="js/app-sidebarCarrito.js"></script>
+    <script src="js/app-detalle.js"></script>
+    <script src="js/app-newsletter.js"></script>
+  </body>
+</html>
